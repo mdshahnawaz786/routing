@@ -1,0 +1,86 @@
+.home{
+    height: 80%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.leftDiv{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.divOne{
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+}
+
+.divOne h1{
+    font-family: "DM Sans", sans-serif;
+    color: rgb(89, 106, 255);
+    font-size: 35px;
+}
+
+.paraDiv{
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 80px;
+}
+
+.paraDiv p{
+    font-family: "DM Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    /* font-weight: 400; */
+}
+
+.leftDiv .buttonDivContainer{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px 80px;
+    
+}
+
+.companyProfileButton{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(89,106,255);
+}
+
+.videoButton{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+.videoButton i{
+    margin-right: 12px;
+}
+
+
+
+.rightDiv{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid black; */
+}
